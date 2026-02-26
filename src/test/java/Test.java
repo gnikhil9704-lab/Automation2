@@ -18,5 +18,7 @@ public class Test {
 				System.out.println("Test Pass");
 		else
 			System.out.println("Test fail");
+		driver.findElement(By.xpath("//label[contains(text(),\"Email address\")]")).sendKeys("user id");
+		driver.findElement(By.xpath("//label[contains(text(),\"Password\")]")).sendKeys("user pass");
 	}
 }
