@@ -13,7 +13,7 @@ public class Test {
 		driver.manage().window().maximize();
 		Thread.sleep(2);
 		//driver.close();
-		WebElement fb = driver.findElement(By.xpath("//img[@alt=\"Facebook\"]"));
+		WebElement fb = driver.findElement(By.xpath("//div[@class=\"x106a9eq\"]"));
 		if(fb.isDisplayed())
 				System.out.println("Test Pass");
 		else
